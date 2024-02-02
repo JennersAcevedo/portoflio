@@ -13,14 +13,7 @@ export default function Home() {
       <Navbar />
       <main className={styles.main}>
         <div>
-          <p>Hi, my name is Jenners Acevedo1</p>
-          {/* <Image
-          style={imgStyle}
-            src="/1.jpg"
-            width={700}
-            height={500}
-            alt="Picture of the author"
-          /> */}
+          <p>Hi, my name is Jenners Acevedo</p>
         </div>
       </main>
       <footer>
