@@ -10,7 +10,7 @@
   padding-top: 0.5vh;
 }
 .list{
-  background-color: #333333;
+  background-color: #292929;
   width: 100%;
   height: 5.5vh;
 }
@@ -22,11 +22,29 @@
   color: white;
   font-family: "Montserrat", sans-serif;
   font-size: 3vh;
-  /* width: 100%; */
+  display: inline-block;
+  position: relative;
 }
 
 #link:hover{
-background-color: #3498db;
+color: #3498db;
+text-shadow: 0 0 5px rgba(88, 200, 135, 0.8);
+}
+
+#link::after {
+ 
+  content: '';
+  display:block;
+  width: 0;
+  height: 2px; /* Grosor de la línea */
+  background-color: #292929; /* Color inicial de la línea */
+  transition: width 0.3s, background-color 0.3s; /* Agrega una transición suave */
+}
+
+#link:hover::after {
+
+  width: 100%; /* Ancho completo al pasar el ratón sobre el texto */
+  background-color: #3498db; /* Nuevo color de la línea al pasar el ratón sobre el texto */
 }
 #contact{
   padding:  1.5vh 1vh;
@@ -34,9 +52,30 @@ background-color: #3498db;
   color: white;
   font-family: "Montserrat", sans-serif;
   font-size: 3vh;
-  font-weight: 600;
-  background-color: #2ecc71;
+  display: inline-block;
+  position: relative;
+
+  /* font-weight: 600; */
+  /* background-color: #2ecc71; */ 
   
+}
+#contact:hover{
+  color:#2ecc71;
+  text-shadow: 0 0 10px rgba(88, 200, 135, 0.8);
+}
+
+#contact::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px; /* Grosor de la línea */
+  background-color: #292929; /* Color inicial de la línea */
+  transition: width 0.3s, background-color 0.3s; /* Agrega una transición suave */
+}
+
+#contact:hover::after {
+  width: 100%; /* Ancho completo al pasar el ratón sobre el texto */
+  background-color: #2ecc71; /* Nuevo color de la línea al pasar el ratón sobre el texto */
 }
 
 @media (max-width: 768px) {
@@ -53,6 +92,27 @@ background-color: #3498db;
     flex-direction: column;
     align-items: flex-start;
   }
+
+  #link{
+    text-align: center;
+    padding:  1.5vh 1vh;
+    text-decoration: none;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2vh;
+    /* width: 100%; */
+  }
+  #contact{
+    padding:  1.5vh 1vh;
+    text-decoration: none;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2vh;
+    /* font-weight: 600; */
+    /* background-color: #2ecc71; */ 
+    
+  }
+
 }
 @keyframes changeColor {
   0% {

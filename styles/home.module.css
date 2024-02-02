@@ -2,12 +2,12 @@
     display: block;
     padding: 6rem;
     min-height: 100vh;
-    background-color: #333333;
+    background-color: #292929;
     color:white;
 }
 
 .main p{
-    font-size: 5vh;
+    font-size: 3vh;
 }
 .img{
     border-radius: 50%;
