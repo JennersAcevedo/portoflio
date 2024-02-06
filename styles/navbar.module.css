@@ -6,7 +6,7 @@
   align-items: center;
   box-sizing: border-box;
   list-style-type: none;
-  margin: 0;
+  /* margin: 0; */
   padding-top: 0.5vh;
 }
 .list{
