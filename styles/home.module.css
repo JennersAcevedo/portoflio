@@ -1,15 +1,41 @@
-.main{
-    display: block;
-    padding: 6rem;
-    min-height: 100vh;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.main {
+     display: block;
+    /* padding: 6rem;*/ 
+    padding-left: 14vw;
+    padding-right: 14vw;
+    padding-top: 8vw;
+    min-height: 100vh; 
     background-color: #292929;
-    color:white;
+    color: white;
 }
 
-.main p{
+.main p {
     font-size: 3vh;
 }
-.img{
+
+.img {
     border-radius: 50%;
 }
 
+.description {
+    font-family: "Montserrat", sans-serif;
+    font-size: 3vh;
+}
+
+.description .role {
+    text-shadow: 2px 2px 4px rgba(76, 178, 247, 0.5);
+    font-weight: 600;
+    color: #3498db;
+}
+.tittle{
+    margin-top: 6vh;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    font-size: 3vh;
+    /* color:#3498db */
+}
+.profile image{
+    border-radius: 25px;
+}
