@@ -1,12 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .main {
-     display: block;
-    /* padding: 6rem;*/ 
+    display: block;
     padding-left: 14vw;
     padding-right: 14vw;
     padding-top: 5vw;
-    min-height: 100vh; 
+    min-height: 100vh;
     background-color: #1f1f1f;
     color: white;
 }
@@ -21,30 +26,56 @@
 
 .description {
     font-family: "Montserrat", sans-serif;
-    font-size: 3vh;
+    font-size: 8vw;
 }
 
 .description .role {
     text-shadow: 2px 2px 4px rgba(76, 178, 247, 0.5);
     font-weight: 600;
+    font-size: 5vh;
     color: #3498db;
 }
-.tittle{
-    margin-top: 9vh;
-    font-weight: 700;
+
+.description p {
+    font-size: 4vh;
+}
+
+.name {
+    margin-top: 1vh;
+    font-size: 5vh;
+}
+
+.tittle {
+    margin-top: 10vh;
+    font-weight: 500;
     font-family: "Montserrat", sans-serif;
-    font-size: 3vh;
-    /* color:#3498db */
+    font-size: 5vh;
 }
-.profile image{
-    border-radius: 25px;
+
+.profile image {
+    border-radius: 2px;
 }
-.social{
+
+.social {
     font-size: 2vh;
     font-weight: 700;
     font-family: "Montserrat", sans-serif;
-    
 }
-.social a{
+
+.social a {
     text-decoration: none;
 }
+.project {
+    padding-top: 5vh;
+}
+.project a{
+    text-decoration: none;
+}
+.projects {
+    /* border: 3px solid #3498db; */
+    border-radius: 2vh;
+    padding: 3vh;
+    background: #1f1f1f;
+    background: linear-gradient(to bottom, #1f1f1f, #2c2c2c);
+}
+
