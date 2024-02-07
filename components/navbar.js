@@ -1,9 +1,13 @@
 import Link from "next/link";
 import styles from "@/styles/navbar.module.css";
 import 'bootstrap/dist/css/bootstrap.css'
+import Image from "next/image";
 
 export default function Navbar() {
-
+  const imageStyle = {
+    borderRadius: '50%',
+    border: '3px solid #fff',
+  }
 
   return (
     <div 
