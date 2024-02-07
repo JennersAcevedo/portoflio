@@ -11,25 +11,31 @@ export default function Home() {
     borderRadius: '50%',
     border: '3px solid #fff',
   }
+  const projectStyle = {
+    borderRadius: '10%',
+    border: '3px solid #fff',
+  }
   return (
     <div>
+      <div className={styles.container}>
       <Navbar />
+      </div>
       <main className={styles.main}>
         <div className={styles.description}>
-        <Image
-              src="/profiles.jpg"
-              width={50}
-              height={50}
-              alt="Picture of the author"
-              style={imageStyle}
-            />
-            <span className={styles.social}><a href='https://linktr.ee/jenners_dev'> @jenners_dev</a> </span>
-          <p>Hi, my name is Jenners Acevedo</p>
+          <Image
+            src="/profiles.jpg"
+            width={50}
+            height={50}
+            alt="Picture of the author"
+            style={imageStyle}
+          />
+          <span className={styles.social}><a href='https://linktr.ee/jenners_dev'> @jenners_dev</a> </span>
+          <p> Hi, my name is <span className={styles.name}>Jenners Acevedo</span></p>
           <p>I'm a <span className={styles.role}>Full Stack Developer with experience in mobile</span>.</p>
         </div>
-        <section>
+        <section className={styles.projects}>
           <div className={styles.tittle}>
-            <p>PROJECTS</p>
+            PROJECTS
           </div>
           <div className={styles.project}>
             <Image
@@ -37,7 +43,7 @@ export default function Home() {
               width={100}
               height={100}
               alt="Picture of the author"
-              style={imageStyle}
+              style={projectStyle}
             />
             <h2>Project 1</h2>
             <p>This project is to manage the developers and businesses of a company that sells its services to freelance businesses and developers.</p>
@@ -49,7 +55,7 @@ export default function Home() {
               width={100}
               height={100}
               alt="Picture of the author"
-              style={imageStyle}
+              style={projectStyle}
             />
             <h2>Proyecto 1</h2>
             <p>Descripción del Proyecto 1. Puedes agregar más detalles aquí.</p>
