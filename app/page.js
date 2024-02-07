@@ -16,6 +16,14 @@ export default function Home() {
       <Navbar />
       <main className={styles.main}>
         <div className={styles.description}>
+        <Image
+              src="/profiles.jpg"
+              width={50}
+              height={50}
+              alt="Picture of the author"
+              style={imageStyle}
+            />
+            <span className={styles.social}><a href='https://linktr.ee/jenners_dev'> @jenners_dev</a> </span>
           <p>Hi, my name is Jenners Acevedo</p>
           <p>I'm a <span className={styles.role}>Full Stack Developer with experience in mobile</span>.</p>
         </div>
