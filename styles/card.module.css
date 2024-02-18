@@ -1,0 +1,51 @@
+.projectcard {
+    width: 20vw;
+    height: 100%;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.projectoimage {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.projectcontent {
+    flex-grow: 1;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.projectcontent h3 {
+    margin-top: 0;
+}
+
+.projectcontent p {
+    color: #555;
+}
+
+#link {
+    text-align: center;
+    padding: 1.5vh 1vh;
+    text-decoration: none;
+    background-color: #3498db;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2vh;
+    display: inline-block;
+    position: relative;
+    transition: background-color 0.3s ease;
+}
+
+#link:hover {
+    color: #2ecc71;
+    background-color: #2980b9;
+    /* text-shadow: 0 0 5px rgba(88, 200, 135, 0.8); */
+}
