@@ -73,9 +73,16 @@
 }
 .projects {
     /* border: 3px solid #3498db; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     border-radius: 2vh;
-    padding: 3vh;
+    /* padding: 1vh; */
     background: #1f1f1f;
     background: linear-gradient(to bottom, #1f1f1f, #2c2c2c);
+}
+.profile{
+    display: flex;
+    align-items: center;
 }
 
