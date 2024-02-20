@@ -47,5 +47,16 @@
 #link:hover {
     color: #2ecc71;
     background-color: #2980b9;
-    /* text-shadow: 0 0 5px rgba(88, 200, 135, 0.8); */
 }
+
+@media screen and (max-width: 768px) {
+    .projectcard {
+      width: calc(50% - 32px); /* Ajusta el ancho para ocupar la mitad del contenedor con un espacio entre tarjetas */
+    }
+  
+    @media screen and (max-width: 480px) {
+      .projectcard {
+        width: 100%; /* Ocupa el 100% del ancho en pantallas más pequeñas */
+      }
+    }
+  }
