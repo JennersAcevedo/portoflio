@@ -47,6 +47,7 @@
 
 .tittle {
     margin-top: 10vh;
+    margin-bottom: 2vh;
     font-weight: 500;
     font-family: "Montserrat", sans-serif;
     font-size: 5vh;
@@ -57,6 +58,7 @@
 }
 
 .social {
+    margin-left: 1vh;
     font-size: 2vh;
     font-weight: 700;
     font-family: "Montserrat", sans-serif;
@@ -65,24 +67,33 @@
 .social a {
     text-decoration: none;
 }
+
 .project {
     padding-top: 5vh;
 }
-.project a{
+
+.project a {
     text-decoration: none;
 }
+
 .projects {
-    /* border: 3px solid #3498db; */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     border-radius: 2vh;
-    /* padding: 1vh; */
     background: #1f1f1f;
     background: linear-gradient(to bottom, #1f1f1f, #2c2c2c);
 }
-.profile{
+
+.profile {
     display: flex;
     align-items: center;
+    margin-bottom: 2vh;
 }
 
+.footerMain {
+    background-color: #1f1f1f;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
