@@ -33,7 +33,7 @@ export default function Navbar() {
           </Link>
         </li>
         <li>
-          <Link id={styles.link} href="/project">
+          <Link id={styles.link} href="/projects">
             Projects
           </Link>
         </li>
