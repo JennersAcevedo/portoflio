@@ -14,19 +14,19 @@ export default function Home() {
       tittle: 'Developer portal - BackEnd',
       description: 'This project is responsible for managing the developers and merchants that implement the services of a company that is a payment processor. This is the backend of that project. - NODE.JS (NESTJS)',
       imageURL: '/adm-dev-back.png',
-      urlProject: "/about"
+      urlProject: "https://github.com/Jenners20/adm-dev-back"
     },
     {
       tittle: 'Developer portal - FrontEnd',
       description: 'This project is responsible for managing the developers and merchants that implement the services of a company that is a payment processor. This is the frontend of that project. - REACT (NEXTJS)',
       imageURL: '/adm-dev-back.png',
-      urlProject: ""
+      urlProject: "https://github.com/Jenners20/adm-dev-frontend"
     },
     {
       tittle: 'Portfolio (this project)',
       description: 'This is my portfolio. Is the one that you are seeing now. - REACT (NEXTJS)',
       imageURL: '/adm-dev-back.png',
-      urlProject: ""
+      urlProject: "https://github.com/Jenners20/portfolio"
     },
   ];
   return (
@@ -52,7 +52,7 @@ export default function Home() {
         <div className={styles.tittle}>
           PROJECTS
         </div>
-        <section className={styles.projects}>
+        <section id='projects' className={styles.projects}>
           {projects.map((project, index) => (
             <ProjectCard key={index} {...project} />
           ))}

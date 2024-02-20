@@ -8,6 +8,13 @@ export default function Navbar() {
     borderRadius: '50%',
     border: '3px solid #fff',
   }
+  // const scrollToSection = (sectionId) => {
+  //   const section = document.getElementById(sectionId);
+
+  //   if (section) {
+  //     section.scrollIntoView({ behavior: 'smooth' });
+  //   }
+  // };
 
   return (
     <div 
@@ -35,6 +42,9 @@ export default function Navbar() {
             Contact me
           </Link>
         </li>
+        {/* <li>
+        <button onClick={() => scrollToSection('seccion1')}>Ir a Sección 1</button>
+        </li> */}
       </ul>
     </div>
   );
