@@ -27,6 +27,7 @@ export default function Home() {
                         />
                         <span className={styles.social}><a href='https://linktr.ee/jenners_dev'> @jenners_dev</a> </span>
                     </div>
+                    <p>PROJECTS</p>
                     <p> Hi, my name is <span className={styles.name}>Jenners Acevedo</span>, a software developer with experience in mobile.</p>
                     <p>I've been building stuff on the web for the last 4 years, working with clients across various countries and industries.</p>
                     <p>My focus is on creating strong, lasting solutions for the world. I would like to be part of the team that changes the world and creates innovation every day.</p>
