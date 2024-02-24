@@ -34,12 +34,6 @@ export default function Home() {
                     <p>Instagram</p>
                     <p>Email</p>
                     <p>TikTok</p>
-                    <p> Hi, my name is <span className={styles.name}>Jenners Acevedo</span>, a software developer with experience in mobile.</p>
-                    <p>I've been building stuff on the web for the last 4 years, working with clients across various countries and industries.</p>
-                    <p>My focus is on creating strong, lasting solutions for the world. I would like to be part of the team that changes the world and creates innovation every day.</p>
-                    <p>I'm a <span className={styles.role}>Full Stack Developer with experience in mobile</span>.</p>
-                    <p>Work</p>
-                    <p>Now I'm working</p>
                 </div>
             </main>
             <footer className={styles.footerMain}>
