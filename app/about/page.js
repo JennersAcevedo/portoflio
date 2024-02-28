@@ -1,7 +1,6 @@
 import Image from 'next/image'
-import styles from '@/styles/home.module.css'
+import styles from '@/styles/about.module.css'
 import Navbar from '@/components/navbar'
-import ProjectCard from '@/components/cards'
 import Footer from '@/components/footer'
 
 export default function Home() {
@@ -25,9 +24,10 @@ export default function Home() {
                             alt="Picture of the author"
                             style={imageStyle}
                         />
-                        <span className={styles.social}><a href='https://linktr.ee/jenners_dev'> @jenners_dev</a> </span>
+                        
                     </div>
                     <p>ABOUT JENNERS</p>
+                    <div className={styles.body}>
                     <p> Hi, my name is <span className={styles.name}>Jenners Acevedo</span>. I'm a software developer with experience in mobile.</p>
                     <p>I've been building stuff on the web for the last 4 years, working with clients across various countries and industries.</p>
                     <p>My focus is on creating strong, lasting solutions for the world. I would like to be part of the team that changes the world and creates innovation every day.</p>
@@ -36,9 +36,11 @@ export default function Home() {
                     <p>I have 3 years of experience working with payment processors as CardNet and Stripe.</p>
                     <p>Also I have experience working with C# and Python.</p>
                     <p>Content Creator</p>
-                    <p>I like creating content related to code and software development on social media as <a href='/tik tok'>Tik Tok</a>, <a href='/instagram'>Instagram</a> and <a href='/YouTube'>YouTube</a>.</p>
+                    <p>I loved creating content related to code and software development on social media as <a href='/tik tok'>Tik Tok</a>, <a href='/instagram'>Instagram</a> and <a href='/YouTube'>YouTube</a>.</p>
                     <p>Hobbies</p>
-                    <p>I like going to the gym, Watching some movies. I'm a fan of Greek mythology and I like all the content related to that (books, movies, series, etc.).</p>
+                    <p>I'm passionate about going to the gym, Watching some movies. I'm a fan of Greek mythology and I like all the content related to that (books, movies, series, etc.).</p>
+                    </div>
+                    <br/>
                 </div>
             </main>
             <footer className={styles.footerMain}>
