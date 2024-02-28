@@ -33,7 +33,7 @@ export default function Navbar() {
           </Link>
         </li>
         <li>
-          <Link id={styles.link} href="/projects">
+          <Link id={styles.link} href="https://github.com/Jenners20">
             Projects
           </Link>
         </li>
@@ -42,9 +42,6 @@ export default function Navbar() {
             Contact me
           </Link>
         </li>
-        {/* <li>
-        <button onClick={() => scrollToSection('seccion1')}>Ir a Sección 1</button>
-        </li> */}
       </ul>
     </div>
   );

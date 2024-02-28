@@ -1,12 +1,12 @@
 import Image from 'next/image'
-import styles from '@/styles/home.module.css'
+import styles from '@/styles/contact.module.css'
 import Navbar from '@/components/navbar'
 import ProjectCard from '@/components/cards'
 import Footer from '@/components/footer'
 
 export default function Home() {
     const imageStyle = {
-        borderRadius: '50%',
+        borderRadius: '10%',
         border: '3px solid #fff',
     }
 
@@ -25,15 +25,18 @@ export default function Home() {
                             alt="Picture of the author"
                             style={imageStyle}
                         />
-                        <span className={styles.social}><a href='https://linktr.ee/jenners_dev'> @jenners_dev</a> </span>
                     </div>
                     <p>Contact me</p>
 
-                    <p>You can send me a messages on my social medias</p>
-                    <p>Linkedin</p>
-                    <p>Instagram</p>
-                    <p>Email</p>
-                    <p>TikTok</p>
+                    <p>Please contact me on my social medias</p>
+                    <div className={styles.social}>
+                    <a href='https://www.linkedin.com/in/jenners-acevedo-berg-031a73201/'>Linkedin</a>
+                    <br/>
+                    <a href='https://www.instagram.com/jenners.dev/'>Instagram</a>
+                    <br/>
+                    <a href='https://www.tiktok.com/@jenners.dev'>TikTok</a>
+                    </div>
+                   
                 </div>
             </main>
             <footer className={styles.footerMain}>

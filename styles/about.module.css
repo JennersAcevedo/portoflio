@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    display: block;
+    padding-left: 14vw;
+    padding-right: 14vw;
+    padding-top: 5vw;
+    min-height: 100vh;
+    background-color: #1f1f1f;
+    color: white;
+}
+
+.main p {
+    font-size: 3vh;
+}
+
+.img {
+    border-radius: 50%;
+}
+
+.description {
+    font-family: "Montserrat", sans-serif;
+    font-size: 8vw;
+}
+
+.description .role {
+    text-shadow: 2px 2px 4px rgba(76, 178, 247, 0.5);
+    font-weight: 600;
+    font-size: 5vh;
+    color: #3498db;
+}
+
+.description p {
+    font-size: 4vh;
+}
+
+.name {
+    margin-top: 1vh;
+    font-size: 5vh;
+}
+
+.profile image {
+    border-radius: 2px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2vh;
+}
+
+.footerMain {
+    background-color: #1f1f1f;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+.body{ 
+    margin-left: 1vh;
+    font-size: 3vh;
+    font-weight: 400;
+}
+
+.body a{
+    text-decoration: none;
+    color: #2ecc71;
+    font-weight: 700;
+}
