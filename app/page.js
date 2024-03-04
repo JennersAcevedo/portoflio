@@ -13,19 +13,26 @@ export default function Home() {
     {
       tittle: 'Developer portal - BackEnd',
       description: 'This project is responsible for managing the developers and merchants that implement the services of a company that is a payment processor. This is the backend of that project. - NODE.JS (NESTJS)',
-      imageURL: '/adm-dev-back.png',
+      imageURL: '/portal-back.png',
       urlProject: "https://github.com/Jenners20/adm-dev-back"
+    },
+   
+    {
+      tittle: 'Stocks - Backend',
+      description: 'This project is responsible for managing the stocks of a company also sells and purchases. - Nodejs (NESTJS)',
+      imageURL: '/stocks-back.png',
+      urlProject: "https://github.com/Jenners20/portfolio"
     },
     {
       tittle: 'Developer portal - FrontEnd',
       description: 'This project is responsible for managing the developers and merchants that implement the services of a company that is a payment processor. This is the frontend of that project. - REACT (NEXTJS)',
-      imageURL: '/adm-dev-back.png',
+      imageURL: '/portal-front.png',
       urlProject: "https://github.com/Jenners20/adm-dev-frontend"
     },
     {
-      tittle: 'Portfolio (this project)',
-      description: 'This is my portfolio. Is the one that you are seeing now. - REACT (NEXTJS)',
-      imageURL: '/adm-dev-back.png',
+      tittle: 'Stocks - Frontend',
+      description: 'This project is responsible for managing the stocks of a company also sells and purchases. - REACT (NEXTJS)',
+      imageURL: '/stocks-front.png',
       urlProject: "https://github.com/Jenners20/portfolio"
     },
   ];
