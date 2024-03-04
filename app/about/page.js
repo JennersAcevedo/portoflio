@@ -36,9 +36,9 @@ export default function Home() {
                     <p>I have 3 years of experience working with payment processors as CardNet and Stripe.</p>
                     <p>Also I have experience working with C# and Python.</p>
                     <p>Content Creator</p>
-                    <p>I loved creating content related to code and software development on social media as <a href='/tik tok'>Tik Tok</a>, <a href='/instagram'>Instagram</a> and <a href='/YouTube'>YouTube</a>.</p>
+                    <p>I love creating content related to code and software development on social media as <a href='/tik tok'>Tik Tok</a>, <a href='/instagram'>Instagram</a> and <a href='/YouTube'>YouTube</a>.</p>
                     <p>Hobbies</p>
-                    <p>I'm passionate about going to the gym, Watching some movies. I'm a fan of Greek mythology and I like all the content related to that (books, movies, series, etc.).</p>
+                    <p>I'm passionate about going to the gym and Watching some movies. I'm a fan of Greek mythology and I like all the content related to that (books, movies, series, etc.).</p>
                     </div>
                     <br/>
                 </div>
