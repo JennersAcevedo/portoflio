@@ -4,13 +4,10 @@ import ProjectCard from '@/components/cards'
 import Footer from '@/components/footer'
 import React from "react";
 import SwitchButton from '@/components/switchButton'
-// import { cookies } from 'next/headers'
 import NavbarEsp from '@/components/navbarEsp'
 
 export default async function Home() {
-//   const  cookieStore = cookies()
-//   const theme = cookieStore.get('language')
-//   console.log(theme)
+
   const imageStyle = {
     borderRadius: '50%',
     border: '3px solid #fff',

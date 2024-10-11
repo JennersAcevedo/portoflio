@@ -19,8 +19,8 @@ export default function Home() {
                     <div className={styles.profile}>
                     <Image
                             src="/colorProfile.jpg"
-                            width={350}
-                            height={355}
+                            width={250}
+                            height={255}
                             alt="Picture of the author"
                             style={imageStyle}
                         />
