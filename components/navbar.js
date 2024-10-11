@@ -1,26 +1,12 @@
 import Link from "next/link";
 import styles from "@/styles/navbar.module.css";
 import 'bootstrap/dist/css/bootstrap.css'
-import Image from "next/image";
-
+import React from "react";
 export default function Navbar() {
-  const imageStyle = {
-    borderRadius: '50%',
-    border: '3px solid #fff',
-  }
-  // const scrollToSection = (sectionId) => {
-  //   const section = document.getElementById(sectionId);
-
-  //   if (section) {
-  //     section.scrollIntoView({ behavior: 'smooth' });
-  //   }
-  // };
-
   return (
     <div 
     className={styles.list}
     >
-    
       <ul>
         <li>
           <Link id={styles.link} href="/">
@@ -33,7 +19,7 @@ export default function Navbar() {
           </Link>
         </li>
         <li>
-          <Link id={styles.link} href="https://github.com/Jenners20">
+          <Link id={styles.link} href="https://github.com/JennersAcevedo">
             Projects
           </Link>
         </li>

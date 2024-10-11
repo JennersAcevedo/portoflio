@@ -1,7 +1,6 @@
 import Image from 'next/image'
 import styles from '@/styles/home.module.css'
 import Navbar from '@/components/navbar'
-import ProjectCard from '@/components/cards'
 import Footer from '@/components/footer'
 
 export default function Home() {
