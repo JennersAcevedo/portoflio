@@ -85,10 +85,24 @@
     background: linear-gradient(to bottom, #1f1f1f, #2c2c2c);
 }
 
+.headers {
+    overflow: auto;
+    font-size: 0;
+}
+
 .profile {
-    display: flex;
-    align-items: center;
-    margin-bottom: 2vh;
+    width: 50%;
+    display: inline-block;
+    font-size: initial;
+    box-sizing: border-box;
+    vertical-align: top;
+
+}
+
+.switch {
+    width: 30%;
+    float: right;
+    box-sizing: border-box;
 }
 
 .footerMain {

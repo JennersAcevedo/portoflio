@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import styles from '@/styles/contact.module.css'
-import Navbar from '@/components/navbar'
 import Footer from '@/components/footer'
+import NavbarEsp from '@/components/navbarEsp'
 
 export default function Home() {
     const imageStyle = {
@@ -12,22 +12,22 @@ export default function Home() {
     return (
         <div>
             <div className={styles.container}>
-                <Navbar />
+                <NavbarEsp />
             </div>
             <main className={styles.main}>
                 <div className={styles.description}>
                     <div className={styles.profile}>
                         <Image
-                           src="/profiles.jpeg"
-                           width={310}
-                           height={300}
-                           alt="Picture of the author"
-                           style={imageStyle}
+                            src="/profiles.jpeg"
+                            width={310}
+                            height={300}
+                            alt="Picture of the author"
+                            style={imageStyle}
                         />
                     </div>
-                    <p>Contact me</p>
+                    <p>Contáctame</p>
 
-                    <p>Please contact me on my social medias</p>
+                    <p>Puedes contactarme vía mis redes sociales: </p>
                     <div className={styles.social}>
                     <a href='https://www.linkedin.com/in/jenners-acevedo-berg-031a73201/'>Linkedin</a>
                     <br/>

@@ -17,10 +17,10 @@ export default function Home() {
             <main className={styles.main}>
                 <div className={styles.description}>
                     <div className={styles.profile}>
-                        <Image
-                            src="/profiles.jpg"
-                            width={300}
-                            height={300}
+                    <Image
+                            src="/colorProfile.jpg"
+                            width={350}
+                            height={355}
                             alt="Picture of the author"
                             style={imageStyle}
                         />
@@ -29,10 +29,10 @@ export default function Home() {
                     <p>ABOUT JENNERS</p>
                     <div className={styles.body}>
                     <p> Hi, my name is <span className={styles.name}>Jenners Acevedo</span>. I'm a software developer with experience in mobile.</p>
-                    <p>I've been building stuff on the web for the last 4 years, working with clients across various countries and industries.</p>
+                    <p>I've been building stuff on the web for the last 5 years, working with clients across various countries and industries.</p>
                     <p>My focus is on creating strong, lasting solutions for the world. I would like to be part of the team that changes the world and creates innovation every day.</p>
                     <p>Experience</p>
-                    <p>I have 4 years of experience working with Node.js and React.</p>
+                    <p>I have over 4 years of experience working with Node.js and React.</p>
                     <p>I have 3 years of experience working with payment processors as CardNet and Stripe.</p>
                     <p>Also I have experience working with C# and Python.</p>
                     <p>Content Creator</p>

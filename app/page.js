@@ -3,8 +3,11 @@ import styles from '@/styles/home.module.css'
 import Navbar from '@/components/navbar'
 import ProjectCard from '@/components/cards'
 import Footer from '@/components/footer'
+import React from "react";
+import SwitchButton from '@/components/switchButton'
 
-export default function Home() {
+export default async function Home() {
+
   const imageStyle = {
     borderRadius: '50%',
     border: '3px solid #fff',
@@ -16,7 +19,7 @@ export default function Home() {
       imageURL: '/portal-back.png',
       urlProject: "https://github.com/Jenners20/adm-dev-back"
     },
-   
+
     {
       tittle: 'Stocks - Backend',
       description: 'This project is responsible for managing the stocks of a company also sells and purchases. - Nodejs (NESTJS)',
@@ -36,6 +39,9 @@ export default function Home() {
       urlProject: "https://github.com/Jenners20/portfolio"
     },
   ];
+
+
+
   return (
     <div>
       <div className={styles.container}>
@@ -43,18 +49,25 @@ export default function Home() {
       </div>
       <main className={styles.main}>
         <div className={styles.description}>
-          <div className={styles.profile}>
-            <Image
-              src="/profiles.jpg"
-              width={70}
-              height={70}
-              alt="Picture of the author"
-              style={imageStyle}
-            />
-            <span className={styles.social}><a href='https://linktr.ee/jenners_dev'> @jenners_dev</a> </span>
+          <div className={styles.headers}>
+            <div className={styles.profile}>
+              <Image
+                src="/profiles.jpeg"
+                width={70}
+                height={70}
+                alt="Picture of the author"
+                style={imageStyle}
+              />
+              <span className={styles.social}><a href='https://linktr.ee/jenners_dev'> @jenners_dev</a> </span>
+            </div>
+            <div className={styles.switch}>
+              <SwitchButton defaultChecked={true} />
+            </div>
           </div>
+
+
           <p> Hi, my name is <span className={styles.name}>Jenners Acevedo</span></p>
-          <p>I'm a <span className={styles.role}>Full Stack Developer with experience in mobile</span>.</p>
+          <p>I'm a <span className={styles.role}>Full Stack Developer</span>.</p>
         </div>
         <div className={styles.tittle}>
           PROJECTS

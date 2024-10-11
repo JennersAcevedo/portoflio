@@ -88,18 +88,18 @@ text-shadow: 0 0 5px rgba(88, 200, 135, 0.8);
 
   #link{
     text-align: center;
-    padding:  1.2vh 1vh;
+    padding:  1vh 1vh;
     text-decoration: none;
     color: white;
     font-family: "Montserrat", sans-serif;
-    font-size: 2vh;
+    font-size: 1.5vh;
   }
   #contact{
-    padding:  1.5vh 1vh;
+    padding:  1vh 1vh;
     text-decoration: none;
     color: white;
     font-family: "Montserrat", sans-serif;
-    font-size: 2vh;
+    font-size: 1.5vh;
   }
 
 }
