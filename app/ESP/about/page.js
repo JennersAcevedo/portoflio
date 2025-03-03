@@ -32,8 +32,8 @@ export default function Home() {
                     <p>He estado creando soluciones en la web durante los últimos 5 años para clientes de diversos paises e industrias.</p>
                     <p>Me enfoco en crear soluciones sólidas, duraderas y escalables. Me gustaría ser parte de el equipo que cambia el mundo y innova día tras día.</p>
                     <p>Experiencia</p>
-                    <p>Tengo más 4 años de experiencia trabajando con Node.js y React.</p>
-                    <p>Tengo más 3 años de experiencia trabajando con procesadores de pagos como CardNet y Stripe.</p>
+                    <p>Tengo más 5 años de experiencia trabajando con Node.js y React.</p>
+                    <p>Tengo más 4 años de experiencia trabajando con procesadores de pagos como CardNet y Stripe.</p>
                     <p>Tengo experiencia trabajando con C# y Python.</p>
                     <p>Creador de Contenido</p>
                     <p>Me gusta crear contenido relacionado con la programacion y el desarrollo de software en mis redes sociales como: <a href='/tik tok'>Tik Tok</a>, <a href='/instagram'>Instagram</a> y <a href='/YouTube'>YouTube</a>.</p>
